@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Omega-Atelier/sw.js', { scope: '/Omega-Atelier/' })})}
